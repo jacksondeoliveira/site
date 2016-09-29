@@ -8,7 +8,7 @@
 ?>
 <?php
 	session_start();
-	if(!isset($_SESSION["numerom"]) || !isset($_SESSION["senha"])) {
+	if(!isset($_SESSION["numerom"])) {
 		header("location: index.php");
 		exit;
 	}
